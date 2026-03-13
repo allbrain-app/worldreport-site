@@ -21,7 +21,6 @@ document.addEventListener('DOMContentLoaded', () => {
   if (filterBtns.length && articleCards.length) {
     filterBtns.forEach(btn => {
       btn.addEventListener('click', () => {
-        // Update active state
         filterBtns.forEach(b => b.classList.remove('is-active'));
         btn.classList.add('is-active');
 
